@@ -12,13 +12,13 @@
     float: right;
 }
 
-#user-container {
+#userForm{
     width: 500px;
     margin: 0 auto;
     text-align: center;
 }
 
-#main-container {
+#messageFormArea {
     width: 500px;
     margin: 0 auto;
 }
@@ -28,11 +28,12 @@
     width: 500px;
     border: 1px solid #ccc;
     padding: 20px;
+    margin-top: 40px;
     text-align: left;
     overflow-y: scroll;
 }
 
-#msg-container {
+#messageForm {
     padding: 20px;
 }
 
@@ -52,6 +53,7 @@
 .time {
     float: right;
     color: #939393;
+    margin-top: 21px;
     font-size: 13px;
 }
 
