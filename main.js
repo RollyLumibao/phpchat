@@ -41,6 +41,8 @@
         $userForm.addClass('hidden');
         $messageFormArea.removeClass('hidden');
 
+//notify users that a user entered the room
+
         var msg = {
             'user': user,
             'text': user + ' entered the room',
